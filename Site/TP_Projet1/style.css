@@ -1,0 +1,887 @@
+/* Mise en page de la page */
+body {
+	position: relative;
+	width: 1024px;
+	height: 3159px;
+	background: #171717;
+}
+
+/* Configuration du menu */
+.menu {
+	position: absolute;
+}
+
+.partie_1 {
+	/* Oyindamola */
+	position: absolute;
+	width: 212px;
+	height: 47px;
+	left: 80px;
+	top: 28px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 47px;
+	list-style-type: none;
+
+	color: #FFFFFF;
+}
+
+.partie_2 {
+	/* About me */
+	position: absolute;
+	width: 83px;
+	height: 23px;
+	left: 1020px;
+	top: 40px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+	list-style-type: none;
+
+	color: #FFFFFF;
+}
+
+.partie_3 {
+	/* Services */
+	position: absolute;
+	width: 71px;
+	height: 23px;
+	left: 1143px;
+	top: 40px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+	list-style-type: none;
+
+	color: #FFFFFF;
+}
+
+.partie_4 {
+	/* Contact me */
+	position: absolute;
+	width: 99px;
+	height: 23px;
+	left: 1254px;
+	top: 40px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+	list-style-type: none;
+
+	color: #FFFFFF;
+}
+
+/* Titre 1 */
+h1 {
+	position: absolute;
+	width: 453px;
+	height: 124px;
+	left: 128px;
+	top: 395px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 62px;
+
+	color: #FFFFFF;
+}
+
+/* Sous-titre */
+h4 {
+	position: absolute;
+	width: 205px;
+	height: 23px;
+	left: 128px;
+	top: 528px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 23px;
+
+	color: #828282;
+}
+
+/* Configuration de l'image */
+.image_1 {
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	left: 692px;
+	top: 187px;
+
+	background: url(image_1.png);
+	border-radius: 50%;
+}
+
+/* Configuration du Texte 1 */
+.text_1 {
+	position: absolute;
+	width: 144px;
+	height: 62px;
+	left: 648px;
+	top: 884px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 62px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+/* Configuration du Texte 2 */
+.text_2 {
+	position: absolute;
+	width: 222px;
+	height: 60.03px;
+	left: 607px;
+	top: 1407px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 62px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+/* Configuration du Texte 2 */
+.text_3 {
+	position: absolute;
+	width: 202px;
+	height: 62px;
+	left: 617px;
+	top: 1944px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 62px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+/* Configuration du Texte 4 */
+.text_4 {
+	position: absolute;
+	width: 287px;
+	height: 62px;
+	left: 575px;
+	top: 2414px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 62px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+/* Configuration du paragraphe */
+p {
+	position: absolute;
+	width: 745px;
+	height: 136px;
+	left: 347px;
+	top: 984px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+/* Configuration des petites ellipses */
+.ellipses {
+	position: absolute;
+	width: 62px;
+	height: 62px;
+	left: 282px;
+	top: 1158px;
+	
+	background: url(ellipse.png);
+	border-radius: 50%;
+}
+
+
+/* Configuration du footer */
+footer {
+	position: absolute;
+	width: 134px;
+	height: 18px;
+	left: 654px;
+	top: 3048px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 18px;
+
+	color: #4F4F4F;
+}
+
+/* Sous partie 1 de "About" */
+.About_1 {
+	position: absolute;
+	width: 86px;
+	height: 23px;
+	left: 270px;
+	top: 1238px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 23px;
+
+	color: #FFFFFF;
+}
+
+/* Sous sous partie 1 de "About" */
+.About_1_1 {
+	position: absolute;
+	width: 174px;
+	height: 23px;
+	left: 226px;
+	top: 1264px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+
+	color: #FFFFFF;
+}
+
+/* Sous partie 2 de "About" */
+.About_2 {
+	position: absolute;
+	width: 124px;
+	height: 23px;
+	left: 532px;
+	top: 1238px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 23px;
+
+	color: #FFFFFF;
+}
+
+/* Sous sous partie 2 de "About" */
+.About_2_1 {
+	position: absolute;
+	width: 172px;
+	height: 23px;
+	left: 508px;
+	top: 1264px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+
+	color: #FFFFFF;
+}
+
+/* Sous partie 3 de "About" */
+.About_3 {
+	position: absolute;
+	width: 62px;
+	height: 23px;
+	left: 838px;
+	top: 1238px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 23px;
+
+	color: #FFFFFF;
+}
+
+/* Sous sous partie 3 de "About" */
+.About_3_1 {
+	position: absolute;
+	width: 172px;
+	height: 23px;
+	left: 783px;
+	top: 1264px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+
+	color: #FFFFFF;
+}
+
+/* Sous partie 4 de "About" */
+.About_4 {
+	position: absolute;
+	width: 55px;
+	height: 23px;
+	left: 1122px;
+	top: 1238px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 23px;
+
+	color: #FFFFFF;
+}
+
+/* Sous sous partie 4 de "About" */
+.About_4_1 {
+	position: absolute;
+	width: 174px;
+	height: 23px;
+	left: 1062px;
+	top: 1264px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+
+	color: #FFFFFF;
+}
+
+#rectangle_5 {
+	position: absolute;
+	width: 1168px;
+	height: 235px;
+	left: 141px;
+	top: 2079px;
+
+	background: #212121;
+
+	border: 1px solid #333333;
+	box-sizing: border-box;
+}
+
+#rectangle_4 {
+	position: absolute;
+	width: 349px;
+	height: 241px;
+	left: 141px;
+	top: 1569.66px;
+
+	background: #212121;
+}
+
+#rectangle_3 {
+	position: absolute;
+	width: 350px;
+	height: 241px;
+	left: 550px;
+	top: 1569.66px;
+
+	background: #212121;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
+
+#rectangle_2 {
+	position: absolute;
+	width: 349px;
+	height: 241px;
+	left: 960px;
+	top: 1569.66px;
+
+	background: #212121;
+}
+
+
+/* BOUTON FIN */
+.bouton_fin {
+	position: absolute;
+	width: 79px;
+	height: 18px;
+	left: 683px;
+	top: 2858px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 18px;
+
+	color: #FFFFFF;
+	
+	border: 1px solid green;
+	padding: 5px;
+	background: green;	
+}
+
+
+/* BOUTON DEBUT 1 */
+.bouton_debut_1 {
+	position: absolute;
+	width: 89px;
+	height: 18px;
+	left: 130px;
+	top: 586px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 18px;
+
+	color: #FFFFFF;
+	
+	border: 1px solid green;
+	padding: 5px;
+	background: green;	
+}
+
+
+/* BOUTON DEBUT 2 */
+.bouton_debut_2 {
+	position: absolute;
+	width: 75px;
+	height: 18px;
+	left: 283px;
+	top: 586px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 18px;
+
+	color: #FFFFFF;
+	
+	border: 1px solid white;
+	padding: 5px;
+}
+
+/* GET IN TOUCH */
+
+/* Name */
+.GetInTouch_Name {
+	position: absolute;
+	width: 42px;
+	height: 18px;
+	left: 343px;
+	top: 2558px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+
+	color: #4F4F4F;
+	
+	flex-grow: 1;
+	flex-shrink: 0;
+	flex-basis: 50%;
+} 
+
+/* Last Name */
+.GetInTouch_LastName {
+	position: absolute;
+	width: 83px;
+	height: 18px;
+	left: 738px;
+	top: 2558px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+
+	color: #4F4F4F;
+}
+
+/* Email */
+.GetInTouch_Email {
+	position: absolute;
+	width: 42px;
+	height: 18px;
+	left: 343px;
+	top: 2633px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+
+	color: #4F4F4F;
+}
+
+/* Phone number */
+.GetInTouch_Phone {
+	position: absolute;
+	width: 107px;
+	height: 18px;
+	left: 738px;
+	top: 2633px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+
+	color: #4F4F4F;
+}
+
+/* Message */
+.GetInTouch_Message {
+	position: absolute;
+	width: 64px;
+	height: 18px;
+	left: 358px;
+	top: 2718px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+
+	color: #4F4F4F;
+}
+
+
+#scroll-top {
+	position: sticky;
+	top: 887px;
+	left: 1000px;
+	
+	font-family: Consolas;
+	font-size: 20px;
+	text-align: center;
+	
+	color: white;	
+}
+
+/* Image Full Name */
+.img_About_1 {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 282px;
+	top: 1158px;
+
+	background: url(ellipse.png);
+	border-radius: 50%;
+}
+
+/* Image Email */
+.img_About_2 {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 563px;
+	top: 1158px;
+
+	background: url(ellipse.png);
+	border-radius: 50%;
+}
+
+/* Image Twitter */
+.img_About_3 {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 838px;
+	top: 1158px;
+
+	background: url(ellipse.png);
+	border-radius: 50%;
+}
+
+/* Image Phone */
+.img_About_4 {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 1118px;
+	top: 1158px;
+
+	background: url(ellipse.png);
+	border-radius: 100%;
+}
+
+
+/* Software Development */
+.rectangle_4_text {	
+	position: absolute;
+	width: 229px;
+	height: 94px;
+	left: 191px;
+	top: 1680.66px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 47px;
+	
+	text-align: left;
+
+	color: #535353;
+}
+
+.rectangle_4_img {
+	position: absolute;
+	left: 57px;
+	right: 46.47px;
+	left: 191px;
+	top: 1604.52px;
+
+	background: url(software.png);
+}
+
+/* Web Development */
+.rectangle_3_text {
+	position: absolute;
+	width: 229px;
+	height: 94px;
+	left: 600px;
+	top: 1680.66px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 47px;
+
+	text-align: left;
+
+	color: #535353;
+}
+
+.rectangle_3_img {
+	position: absolute;
+	left: 39.3%;
+	right: 56.34%;
+	top: 14.94%;
+	bottom: 65.15%;
+	
+	background: url(development.png);
+}
+
+/* Web Design */
+.rectangle_2_text {
+	position: absolute;
+	width: 116px;
+	height: 94px;
+	left: 1010px;
+	top: 1680.66px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 47px;
+
+	text-align: left;
+
+	color: #535353;
+}
+
+.rectangle_2_img {
+	position: absolute;
+	left: 74.4%;
+	right: 21.75%;
+	top: 14.94%;
+	bottom: 65.15%;
+	
+	background: url(design.png);
+}
+
+/* 50% */
+#text_3_HTML {
+	position: absolute;
+	width: 159px;
+	height: 94px;
+	left: 266px;
+	top: 2090px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 72px;
+	line-height: 94px;
+
+	text-align: center;
+
+	color: #4F4F4F;
+}
+
+/* HTML */
+#text_3_HTML_t {
+	position: absolute;
+	width: 66px;
+	height: 31px;
+	left: 313px;
+	top: 2226px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 31px;
+	text-align: center;
+
+	color: #27AE60;
+}
+
+/* 20% */
+#text_3_CSS {
+	position: absolute;
+	width: 155px;
+	height: 94px;
+	left: 545px;
+	top: 2090px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 72px;
+	line-height: 94px;
+
+	text-align: center;
+
+	color: #4F4F4F;
+}
+
+/* CSS */
+#text_3_CSS_t {
+	position: absolute;
+	width: 47px;
+	height: 31px;
+	left: 599px;
+	top: 2226px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 31px;
+	text-align: center;
+
+	color: #27AE60;
+}
+
+/* 10% */
+#text_3_JAVA {
+	position: absolute;
+	width: 139px;
+	height: 94px;
+	left: 821px;
+	top: 2090px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 72px;
+	line-height: 94px;
+
+	text-align: center;
+	
+	color: #4F4F4F;
+}
+
+/* JAVASCRIPT */
+#text_3_JAVA_t {
+	position: absolute;
+	width: 141px;
+	height: 31px;
+	left: 820px;
+	top: 2226px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 31px;
+	text-align: center;
+
+	color: #27AE60;
+}
+
+/* 2% */
+#text_3_PHP {
+	position: absolute;
+	width: 104px;
+	height: 94px;
+	left: 1081px;
+	top: 2090px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 72px;
+	line-height: 94px;
+
+	text-align: center;
+
+	color: #4F4F4F;
+}
+
+/* PHP */
+#text_3_PHP_t {
+	position: absolute;
+	width: 47px;
+	height: 31px;
+	left: 1110px;
+	top: 2226px;
+
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 31px;
+	text-align: center;
+
+	color: #27AE60;
+}
+

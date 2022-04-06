@@ -1,0 +1,381 @@
+:root {
+    --background: #111;
+    --ecriture: #fff;
+}
+
+
+/* Mise en page de ma page */
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* Animations pour tout le texte de la page */
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+}
+/* Mise en page de roulette */
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb {
+    background: green;
+    border-radius: 5rem;
+}
+body {
+    background: #111;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #040404;
+    color: #fff;
+    position: relative;
+    background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(https://cdn.pixabay.com/photo/2021/08/02/05/17/sunflowers-6515860_960_720.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+  padding: 2rem 9%;
+}
+
+.accueil {
+    height: 100vh;
+}
+.accueil h1 {
+    font-size: 11vh;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    z-index: 2;
+    /* Animation du titre */
+    background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+}
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+
+.accueil .menu {
+    -webkit-font-smoothing: initial;
+    font-family: 'Benne', serif;
+    font-weight: lighter;
+    font-size: 104px;
+    text-align: center;
+    margin-top: 25vh;
+    letter-spacing: 0px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+    background-color: transparent;
+}
+.accueil .menu a {
+    position: relative;
+    color: white;
+    font-size: 10vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-decoration: none;  /* Enlever le truc bleu au niveau des liens */
+}
+.accueil .menu a::before {
+    content: "";
+    position: absolute;
+    text-decoration: none;
+    width: 0;
+    height: 5px;
+    bottom: 1px;
+    left: 0;
+    background-color: orangered;
+    visibility: hidden;
+    width: 2px;
+    transition: all 0.3s ease-in-out 0s;
+}
+.accueil .menu a:hover {color: white;}
+.accueil .menu a:hover::before {
+    visibility: visible;
+    width: 100%;
+}
+.accueil .menu span {
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background: transparent;
+    margin-bottom: 23px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.accueil .description {
+    text-align: center;
+    margin-top: 25vh;
+    width: 80%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.accueil .description p {
+    font-family: 'Calligraffitti', cursive;
+    font-weight: bolder; /* Texte affichée plus gras que la valeur héritée */
+    font-size: 3.3vh;
+    line-height: 4vh;
+    color: white;
+    animation: translation 15s linear infinite;
+}
+@keyframes translation {
+    0%   {transform: perspective(350px) translate3d(0px, 0px, 0px);}
+    25%  {transform: perspective(350px) translate3d(0px, 0px, -70px)}
+    50%  {transform: perspective(350px) translate3d(0px, 0px, 0px);}
+    75%  {transform: perspective(350px) translate3d(0px, 0px, 50px);}
+    100% {transform: perspective(350px) translate3d(0px, 0px, 0px);}
+}
+
+@media screen and (min-width:950px) and (max-width:1100px) {
+    .accueil h1 {font-size: 9.5vh;}
+    .accueil .menu {margin-top: 25vh;}
+    .accueil .menu a {font-size: 8vh;}
+    .accueil .description {margin-top: 25vh;}
+    .accueil .description p {font-size: 2.6vh;}
+}
+@media screen and (min-width:800px) and (max-width:950px) {
+    .accueil h1 {font-size: 7.5vh;}
+    .accueil .menu {margin-top: 25vh;}
+    .accueil .menu a {font-size: 7vh;}
+    .accueil .description {margin-top: 25vh;}
+    .accueil .description p {font-size: 2.1vh;}
+}
+@media screen and (min-width:400px) and (max-width:950px) {
+    .accueil h1 {font-size: 7vh;}
+    .accueil .menu {margin-top: 20vh;}
+    .accueil .menu span {color: transparent;}
+    .accueil .menu a {font-size: 6vh;}
+    .accueil .description {margin-top: 15vh; width: 90%;}
+    .accueil .description p {font-size: 2.1vh;}
+}
+
+
+
+/* ----------------------------------------------------------------- */
+/* --------------------- MISE EN FORME DU MENU --------------------- */
+/* ----------------------------------------------------------------- */
+nav {
+    background: #4399D4;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+nav:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+/* Différentes caractéristiques du Titre de mon menu */
+nav .logo a {
+    float: left;
+    color: var(--ecriture);
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 70px;
+    padding-left: 60px;
+    text-decoration: none;
+}
+/* Ajout de couleur sur une partie de mon Titre */
+nav strong {
+    color: #F2CF6C;
+}
+nav ul {
+    float: right;
+    margin-right: 40px;
+    list-style: none;
+    position: relative;
+}
+nav ul li {
+   float: left;
+   display: inline-block;
+   background: #4399D4;
+   margin: 0 5px;
+}
+nav ul li a {
+    color: var(--ecriture);
+    line-height: 70px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+/* Mise en page du menu active et du menu au contact de la souris */
+nav ul li a:hover,
+nav ul li a.active,
+nav ul li label.active,
+label .active {
+    border: 30px 100px/40px 50px;
+    background: #4EAC32;
+    color: #fff;
+    width: 32%;
+}
+/* Mise en page du sous-menu actif */
+nav ul li ul li a.active {
+    background: none;
+    color: #4EAC32;
+    font-weight: bold;
+}
+nav ul ul li a:hover {
+    background: none;
+    color: #4EAC32;
+}
+nav ul ul {
+    position: absolute;
+    top: 90px;
+    border-top: 3px solid #4EAC32;
+    opacity: 0;
+    visibility: hidden;
+    transition: top .3s;
+}
+nav ul ul ul {
+    border-top: none;
+}
+nav ul li:hover > ul {
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+}
+nav ul ul li {
+    position: relative;
+    margin: 0px;
+    width: 100%;
+    float: none;
+    display: list-item;
+    border-bottom: 1px solid var(--ecriture);
+}
+nav ul ul li a {
+    line-height: 50px;
+}
+nav ul ul ul li {
+    position:relative;
+    top: -60px;
+    left: 150px;
+}
+.show,.icon,input {
+    display: none;
+}
+.fa-plus {
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+/* RESPONSIVE */
+/* Mise en page du bouton pour le format Smartphone */
+@media all and (max-width:450px) {
+    nav .logo a {
+        font-size: 24px;
+    }
+}
+/* Mise en page pour tablette */
+@media screen and (min-width:950px) and (max-width:1056px) {
+    nav .logo a {
+        padding-left: 40px;
+        width: 40%;
+    }
+    nav ul {
+        margin-right: 10px;
+    }
+    nav lu li a {
+        line-height: 70px;
+        padding: 7px 11px;
+    }
+}
+/* Mise en page pour le bouton du Menu */
+@media all and (max-width:980px) {
+    nav ul {
+        margin-right: 0px;
+        width: 100%;
+    }
+    nav .logo a {
+        padding-left: 40px;
+        width: 100%;
+    }
+    .show + a, ul {
+        display: none;
+    }
+    nav ul li,nav ul ul li {
+        display: block;
+        width: 100%;
+    }
+    .show {
+        display: block;
+        color: var(--ecriture);
+        font-size: 18px;
+        padding: 0 15px;
+        line-height: 70px;
+        cursor: pointer;
+    }
+    .show-active {
+        color: #4EAC32;
+        font-weight: bold;
+    }
+    label .active {
+        color: #4EAC32;
+    }
+    .icon {
+        display: block;
+        color: #4EAC32;
+        position: absolute;
+        top: 0;
+        right: 25px;
+        line-height: 70px;
+        cursor: pointer;
+        font-size: 25px;
+    }
+    nav ul ul {
+        top: 70px;
+        border-top: 0px;
+        float: none;
+        position: static;
+        display: none;
+        opacity: 1;
+        visibility: visible;
+    }
+    nav ul ul a {
+        padding-left: 40px;
+    }
+    nav ul ul ul a {
+        padding-left: 80px;
+    }
+    nav ul ul ul li {
+        position: static;
+    }
+    [id^=btn]:checked + ul {
+        display: block;
+    }
+    nav ul ul li {
+        border-bottom: 0px;
+    }
+    span.cancel:before {
+        content: '\f00d';
+    }
+}
+
+
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Episodes</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- CSS of the Page -->
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/episodes.css">
+
+        <!-- Icons -->
+        <link rel="icon" href="../img/logo.png">
+
+        <script src="../js/episodes.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <!-- CREATION DE MON MENU -->
+            <nav id="menu">
+                <!-- Création du titre du menu -->
+                <div class="logo">
+                    <a href="../index.html"><strong>ECLÉRINI</strong></a>
+                </div>
+                <!-- Création du bouton pour le menu au format smartphone -->
+                <label for="btn" class="icon">
+                    <span class="fa fa-bars"></span>
+                </label>
+                <input type="checkbox"  id="btn"> 
+                <!-- Création du menu avec les sous-menus -->
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="APropos.html">A propos</a></li>
+                    <li><a href="#" class="active">Episodes</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h1 id="titlePage">Nos épisodes</h1>
+            <div id="allEpisodesAndSeasons"> 
+            </div>
+        </main>
+    </body>
+</html>
